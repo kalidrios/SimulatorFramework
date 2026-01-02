@@ -97,6 +97,7 @@ function UpdateButtonsBar()
 		local t_Bottom2 = t_Main.Bottom;
 
 		t_Right.Visible = not u3;
+		t_Main.Left.Visible = not u3;
 		pcall(function() 
 			m_Library.GUI.TouchGui.JumpButton.Visible = not u3;
 		end);
